@@ -48,6 +48,42 @@ let playerSelection = prompt("Rock, paper or scissors?", "rock").toLowerCase();
 
 console.log(playRound(playerSelection,computerSelection));
 
+function game() {
+    getComputerChoice();
+    console.log(computerSelection);
+    prompt("Rock, paper or scissors?", "rock").toLowerCase();
+    playRound(playerSelection, computerSelection);
+    console.log(playRound(playerSelection,computerSelection));
+
+    getComputerChoice();
+    console.log(computerSelection);
+    prompt("Rock, paper or scissors?", "rock").toLowerCase();
+    playRound(playerSelection, computerSelection);
+    console.log(playRound(playerSelection,computerSelection));
+
+    getComputerChoice();
+    console.log(computerSelection);
+    prompt("Rock, paper or scissors?", "rock").toLowerCase();
+    playRound(playerSelection, computerSelection);
+    console.log(playRound(playerSelection,computerSelection));
+
+    getComputerChoice();
+    console.log(computerSelection);
+    prompt("Rock, paper or scissors?", "rock").toLowerCase();
+    playRound(playerSelection, computerSelection);
+    console.log(playRound(playerSelection,computerSelection));
+
+    getComputerChoice();
+    console.log(computerSelection);
+    prompt("Rock, paper or scissors?", "rock").toLowerCase();
+    playRound(playerSelection, computerSelection);
+    console.log(playRound(playerSelection,computerSelection));
+}
+
+game();
+
+
+
 
 
     
